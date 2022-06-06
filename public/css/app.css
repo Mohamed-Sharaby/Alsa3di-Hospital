@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.error {
+    color: red;
+    font-size: 16px;
+}
+
+.disabled-appointment {
+    background-color: #bfc1c6 !important;
+}
+
+.modal-body a {
+    cursor: pointer;
+}
+
+.modal-body .signin-modal-section-om .signin-sub-head-om{font-size:14px;color:#0178B5;text-align:center;margin-top:0;margin-bottom:5px}
+.modal-body .signin-modal-section-om .signin-sub-head-om.add-email-parg-om{font-weight:300;margin-bottom:25px;color:rgba(36,36,36,0.85)}
+.modal-body .signin-modal-section-om .signin-head-om{font-size:20px;font-weight:500;text-align:center;margin-top:0;margin-bottom:30px;color:#242424}
+.modal-body .signin-modal-section-om .signin-head-om.add-email-head-om{margin-bottom:10px}
+.modal-body .signin-modal-section-om .signin-or-text-om{display:flex;justify-content:space-between;align-items:center;margin-bottom:25px;margin-top:25px;line-height:1}
+.modal-body .signin-modal-section-om .signin-or-text-om:after,.signin-modal-section-om .signin-or-text-om:before{content:"";display:flex;height:1px;width:45%;background-color:#e8e8e8}
+.modal-body .signin-modal-section-om .forget-password-link-om{font-size:14px;display:inline-flex;margin-top:10px;margin-bottom:25px;color:#242424;transition:0.5s}
+.modal-body .signin-modal-section-om .forget-password-link-om:hover{color:#2E77B0}
+.modal-body .signin-modal-section-om .signup-last-link-om{border-radius:30px;color:#242424;background:#f7f7fa;justify-content:center;height:48px;width:100%;cursor:pointer;font-size:14px;font-weight:500;transition:0.5s;margin:0;display:flex;align-items:center;justify-content:center;text-decoration:none;overflow:hidden;position:relative}.signin-modal-section-om .signup-last-link-om .text-om{position:relative;z-index:1}.signin-modal-section-om .signup-last-link-om:after{content:"";background:#2E77B0;background:linear-gradient(90deg,#00D9C7 0%,#2E77B0 100%);background-size:100%;position:absolute;top:0;left:0;width:100%;height:100%;transition:0.5s;opacity:0}.signin-modal-section-om .signup-last-link-om:hover:after{opacity:1}.signin-modal-section-om .signup-last-link-om:hover{color:#fff}
